@@ -1,0 +1,91 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+body{
+	margin: 20px auto;
+		
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/ShoreNZ.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	color: white;
+	font-family: 'Josefin', sans-serif;
+	}
+#A_Bdy{
+	margin: auto;
+	align-content: center;
+	max-width: 1000px;
+	}
+#B_bdy{
+	background-color: none;
+	border-radius: 15px;
+	padding: 20px;
+	}
+.Textbox{
+	font-size: 18pt;
+	
+	color: #D0D0D0;
+	background-color: #2E830E90;
+	
+	display: block;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px 30px;
+	max-width: 400px;
+	}
+.Textbox h2, p{
+	padding: 0px 10px;
+	margin: 0px 10px;
+}
+#main_header{
+	font-size: 96px;
+	margin-bottom: 0px;
+	}
+#subtitle{
+	font-size: 30px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+}
+#B_bdy img{
+	box-shadow: -15px 15px 0 0 #2E830E90;
+	
+}
+button{
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	padding: 10px;
+	background-color: #2E830E90;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	display: block;
+}
+button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: inherit;
+}
+button:hover{
+	background-color: #fff;
+	color: #333;
+	}
+#Nav{
+	float: right;
+	list-style: none;
+	}
+#Nav li{
+	display: inline-block;
+	}
+#Nav li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 18px;
+	}
+#Nav li a:hover{
+	background-color: #fff;
+	color: #333;
+	}
